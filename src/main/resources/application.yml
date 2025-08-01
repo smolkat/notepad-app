@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: notr
+  datasource:
+    url: jdbc:mysql://localhost:3306/note_app
+    username: spring
+    password: spring
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
