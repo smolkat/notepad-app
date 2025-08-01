@@ -2,9 +2,9 @@ spring:
   application:
     name: notr
   datasource:
-    url: jdbc:{{MYSQL_URL}}
-    username: {{MYSQLUSER}}
-    password: {{MYSQL_ROOT_PASSWORD}}
+    url: jdbc:${MYSQL_URL}
+    username: ${MYSQLUSER}
+    password: ${MYSQL_ROOT_PASSWORD}
   jpa:
     hibernate:
       ddl-auto: update
